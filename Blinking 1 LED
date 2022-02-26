@@ -1,0 +1,17 @@
+//mycestsolution
+//www.mycestsolution.com
+
+int Green_LED = 13;
+
+void setup() {
+  pinMode(Green_LED, OUTPUT);
+
+}
+
+void loop() {
+  digitalWrite(Green_LED, HIGH);
+  delay(500);
+  digitalWrite(Green_LED, LOW);
+  delay(500);
+
+}
